@@ -1,0 +1,22 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "File Upload API",
+    "version": "v1"
+  },
+  "paths": {
+    "/api/SteamUpload/UploadFile": {
+      "post": {
+        "tags": [
+          "SteamUpload"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": { }
+}
